@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
 """Setup for package """
+
 from setuptools import setup
 
-setup(name='ravi_utils',
-      packages=['ravi_utils'],
-      version='0.1.4',
-      description='Common functions package',
-      author='Raul Viigipuu',
-      author_email='raul@viigipuu.ee',
-      url='https://github.com/raulviigipuu/ravi_utils',
-      download_url='https://github.com/raulviigipuu/ravi_utils/archive/0.1.4.tar.gz',
-      keywords=['utils'],
-      classifiers=[],
-     )
+setup(
+    name='ravi_utils',
+    version='0.1.4',
+    description='Common functions package for simple scripts',
+    author='Raul Viigipuu',
+    author_email='raul@viigipuu.ee',
+    url='https://github.com/raulviigipuu/ravi_utils',
+    py_modules=['ravi_utils'],
+    download_url='https://github.com/raulviigipuu/ravi_utils/archive/0.1.4.tar.gz',
+    keywords=['utils'],
+    classifiers=[]
+)
